@@ -1,7 +1,3 @@
-# if-statement was used to for the function
-# definition function was also included
-# class attributes and init method was used to run code
-
 class Asset:
     def __init__(self, ticker, price, high, low, volume):
         self.ticker = ticker
@@ -57,7 +53,6 @@ robinhoods2.p_e_ratio()
 robinhoods2.update(26.92, 27.75)
 robinhoods2.print_return()
 
-# 3
 class Asset:
     def __init__(self, ticker, price, high, low, volume):
         self.ticker = ticker
